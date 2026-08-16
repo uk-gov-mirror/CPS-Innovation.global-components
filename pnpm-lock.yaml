@@ -234,13 +234,13 @@ importers:
     devDependencies:
       '@stencil/core':
         specifier: ^4.36.2
-        version: 4.43.3
+        version: 4.44.0
       '@stencil/sass':
         specifier: ^3.0.12
-        version: 3.2.3(@stencil/core@4.43.3)
+        version: 3.2.3(@stencil/core@4.44.0)
       '@stencil/store':
         specifier: ^2.2.0
-        version: 2.2.2(@stencil/core@4.43.3)
+        version: 2.2.2(@stencil/core@4.44.0)
       '@types/jest':
         specifier: ^29.5.6
         version: 29.5.14
@@ -1641,8 +1641,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@stencil/core@4.43.3':
-    resolution: {integrity: sha512-w41W6txhGULvvEfa5AEgwfNGAbK3YGowQYMTWuRvXSIbnkiyRDGLogsYSYtHDlz1JJe645JJIK9Lvh5uquFiSw==}
+  '@stencil/core@4.44.0':
+    resolution: {integrity: sha512-A3kArg+80t9zJdul7FLUcxcjqvYrF76nDavfm2L8R7hGKWPbTTGM/tkOSf7MJqMd1ED0ztYoa9X90UlEXY3nLA==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -5947,7 +5947,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@stencil/core@4.43.3':
+  '@stencil/core@4.44.0':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.44.0
       '@rollup/rollup-darwin-x64': 4.44.0
@@ -5958,14 +5958,14 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.44.0
       '@rollup/rollup-win32-x64-msvc': 4.44.0
 
-  '@stencil/sass@3.2.3(@stencil/core@4.43.3)':
+  '@stencil/sass@3.2.3(@stencil/core@4.44.0)':
     dependencies:
-      '@stencil/core': 4.43.3
+      '@stencil/core': 4.44.0
       sass-embedded: 1.98.0
 
-  '@stencil/store@2.2.2(@stencil/core@4.43.3)':
+  '@stencil/store@2.2.2(@stencil/core@4.44.0)':
     dependencies:
-      '@stencil/core': 4.43.3
+      '@stencil/core': 4.44.0
 
   '@testing-library/dom@10.4.1':
     dependencies:
